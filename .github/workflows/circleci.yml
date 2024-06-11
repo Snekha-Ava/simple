@@ -1,6 +1,7 @@
 
- 
+ ----------
 #2. **Define the trigger events**: Specify the events that will trigger the workflow.
+ 
    ```yaml
    on:
      push:
@@ -39,4 +40,5 @@
          - run: npm install
          - run: npm test
    ```
+   ----------
  
